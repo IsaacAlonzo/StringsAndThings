@@ -65,13 +65,19 @@ else:
 # Method        Use Example         Explanation
 # center        aStr.center(w)      it centers the string out how many vales you want it
 print(name.center(15))
-# ljust         aStr.ljust(w)
+# ljust         aStr.ljust(w)       it creates a space of how many spaces away from your string
 x = name.ljust(21)
 print(x , "is awesome")
-# rjust         aStr.rjust(w)
-# upper         aStr.upper()
-# lower         aStr.lower()
+# rjust         aStr.rjust(w)       it moved my string to the left to combine with my other string and
+# realigned my string to the right 20 spaces
+x = name.rjust(21)
+print(x, "is awesome")
+# upper         aStr.upper()        makes everything uppercase within the string
+print(name.upper())
+# lower         aStr.lower()        makes everything in the string lower case
+print(name.lower())
 # index         aStr.index(item)
+
 # rindex        aStr.rindex(item)
 # find          aStr.find(item)
 # rfind         aStr.rfind(item)
