@@ -65,9 +65,12 @@ else:
 # Method        Use Example         Explanation
 # center        aStr.center(w)      it centers the string out how many vales you want it
 print(name.center(15))
+print(name.center(30))
 # ljust         aStr.ljust(w)       it creates a space of how many spaces away from your string
 x = name.ljust(21)
-print(x , "is awesome")
+print(x, "is awesome")
+y = name.ljust(40)
+print(y, "is awesome")
 # rjust         aStr.rjust(w)       it moved my string to the left to combine with my other string and
 # realigned my string to the right 20 spaces
 x = name.rjust(21)
