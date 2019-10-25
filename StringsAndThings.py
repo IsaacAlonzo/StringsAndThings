@@ -34,3 +34,18 @@ print(middleIndex)
 print(name[middleIndex])
 
 print(name[-1])
+
+for i in range(len(name)):
+    print(name[i])
+
+# Slicing and Dicing
+#   slicing operator:  :
+#   slicing lets us make substrings
+
+print(name[0:3])
+print(name[:7])
+print(name[4:8])
+print(name[4:])
+
+for i in range(1, len(name)+1):
+    print(name[0:i])
