@@ -24,3 +24,13 @@ def rowYourBoat():
 
 rowYourBoat()
 
+# Indexing
+
+name = 'John W. Cena'
+firstChar = name[0]
+print(firstChar)
+middleIndex = len(name) // 2
+print(middleIndex)
+print(name[middleIndex])
+
+print(name[-1])
