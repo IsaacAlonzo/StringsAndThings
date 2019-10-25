@@ -82,7 +82,12 @@ print(name.index("Cena"))
 print(name.rindex("W."))
 # find          aStr.find(item)     tells you where your the searched character(s) start
 print(name.find('John'))
-# rfind         aStr.rfind(item)
+# rfind         aStr.rfind(item)    also finds the character(s) you want and returns location
+print(name.rfind('ena'))
 # replace       aStr.replace(old, new)
+x = name.replace("Cena", "Stamos")
+print(x)
+y = name. replace("John", "Juan")
+print(y)
 
 # Be sure to include multiple examples of all of them in use
