@@ -76,10 +76,12 @@ print(x, "is awesome")
 print(name.upper())
 # lower         aStr.lower()        makes everything in the string lower case
 print(name.lower())
-# index         aStr.index(item)
-
-# rindex        aStr.rindex(item)
-# find          aStr.find(item)
+# index         aStr.index(item)    tells you where your the searched (w) is and gives you its location
+print(name.index("Cena"))
+# rindex        aStr.rindex(item)   also tells the same thing as index just another way of typing it
+print(name.rindex("W."))
+# find          aStr.find(item)     tells you where your the searched character(s) start
+print(name.find('John'))
 # rfind         aStr.rfind(item)
 # replace       aStr.replace(old, new)
 
