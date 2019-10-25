@@ -49,3 +49,15 @@ print(name[4:])
 
 for i in range(1, len(name)+1):
     print(name[0:i])
+
+# Searching inside of strings
+
+print("Cena" in name)
+print("W." not in name)
+
+if "h" in name:
+    print("The letter h is in name")
+else:
+    print("The letter h is not in name")
+
+
